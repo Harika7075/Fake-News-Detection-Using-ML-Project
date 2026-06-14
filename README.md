@@ -134,13 +134,12 @@ python predict.py
 
 ---
 
-```md
 # 📸 Project Screenshots
 
 ## 🔹 Prediction Output
 
 <p align="center">
-  <img src="output.png" width="850"/>
+  <img src="Screenshots/output.png" width="850"/>
 </p>
 
 ---
@@ -148,7 +147,7 @@ python predict.py
 ## 🔹 Model Training
 
 <p align="center">
-  <img src="training.png" width="750"/>
+  <img src="Screenshots/training.png" width="750"/>
 </p>
 
 ---
@@ -156,7 +155,7 @@ python predict.py
 ## 🔹 Project Structure
 
 <p align="center">
-  <img src="structure.png" width="450"/>
+  <img src="Screenshots/structure.png" width="450"/>
 </p>
 
 ---
@@ -166,11 +165,10 @@ python predict.py
 ## ▶️ Watch Project Demo
 
 <p align="center">
-  <a href="Demo-video/demo.mp4">
+  <a href="Demo -video/demo.mp4">
     <img src="https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube">
   </a>
 </p>
-```
 
 
 # 📊 Accuracy
