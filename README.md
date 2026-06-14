@@ -162,11 +162,9 @@ python predict.py
 
 # 🎥 Demo Video
 
-## ▶️ Watch Project Demo
-
 <p align="center">
-  <a href="Demo -video/demo.mp4">
-    <img src="https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube">
+  <a href="https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project/tree/main/Demo%20-video">
+    <img src="https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube"/>
   </a>
 </p>
 
