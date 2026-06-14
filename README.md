@@ -1,168 +1,408 @@
-# Fake News Detection Using Machine Learning
 
-<!-- Project Banner -->
-<p align="center">
-  <img src="./banner1.png" alt="Fake News Detection Banner" width="100%">
-</p>
+<div align="center">
 
-## 📌 Project Overview
-Misinformation spreads quickly in the modern digital landscape. This project implements a Python-based Machine Learning solution designed to automatically evaluate and classify news statements as either **REAL** or **FAKE**. Utilizing Natural Language Processing (NLP) primitives and optimized classification models, this system detects linguistic anomalies and structural cues unique to fabricated reporting.
+<img src="assets/banner1.png" width="100%"/>
 
----
+# 📰 Fake News Detection Using Machine Learning
 
-## 🧰 Languages & Technologies Used
-* **Primary Language:** **Python 3.x** (Used for core logic, text processing, and machine learning pipeline execution)
-* **Machine Learning & NLP Libraries:** 
-  * `Scikit-learn` (For feature extraction, vectorization, and building the classification model)
-  * `NLTK` (Natural Language Toolkit for cleaning, tokenizing, and filtering text data)
-* **Data Processing:** 
-  * `Pandas` (For managing and structure loading the text datasets)
-  * `NumPy` (For high-performance matrix and vector calculations)
+### 🚀 AI Powered Fake News Detection System using NLP & Machine Learning
 
----
+</div>
+```
 
-## 🚀 Key Features
-* **Real-Time Live Prediction Interface:** Includes an interactive command-line environment (`predict.py`) where users can type any custom news sentence to get instant validation.
-* **High Threshold Classification Accuracy:** Features a highly optimized pipeline that converges efficiently, achieving a `1.0` (100%) evaluation milestone on training sets.
-* **Automated Training Pipeline:** Equipped with a clean `train.py` compilation architecture that instantly handles data preprocessing, feature mapping, and logs complete tracking summaries.
-* **Linguistic Trait Diagnostics:** Utilizes custom natural language weights to separate structural realities from sensationalized phrases (such as predicting extreme statements like *"aliens landing"* or *"the moon crashing"* properly as FAKE).
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge\&logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-purple?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📂 Project Repository Structure
-This is how the files are organized within the repository (as shown in `project-structure.png`):
+# 📌 Project Overview
 
-```text
+This project is a **Fake News Detection System** developed using **Machine Learning** and **Natural Language Processing (NLP)**.
+
+The model analyzes news text and predicts whether the news is:
+
+✅ REAL
+❌ FAKE
+
+The project helps in detecting misinformation and improving news reliability using intelligent prediction models.
+
+---
+
+# ✨ Features
+
+* 🔍 Detects Fake and Real News
+* 🤖 Machine Learning Prediction
+* 🧠 NLP Text Processing
+* ⚡ Fast and Accurate Results
+* 📊 Model Training Included
+* 💻 Simple Python Implementation
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology       | Purpose              |
+| ---------------- | -------------------- |
+| Python           | Programming Language |
+| Machine Learning | Prediction Model     |
+| NLP              | Text Processing      |
+| Pandas           | Data Handling        |
+| NumPy            | Numerical Operations |
+| Scikit-learn     | ML Algorithms        |
+| Pickle           | Model Saving         |
+
+---
+
+# 📂 Project Structure
+
+<div align="center">
+
+<img src="structure.png" width="500">
+
+</div>
+
+```bash
+Fake-News-Detection-Using-ML-Project/
+│
 ├── assets/
 ├── dataset/
-├── Demo -video/
-│   └── demo-video.mp4       # Your uploaded demonstration video
+├── Demo-video/
 ├── model/
 ├── Screenshots/
-│   ├── project-structure.png
-│   ├── training.png
-│   └── output.png
-├── predict.py               # Script used to test live entries
-└── train.py                 # Script used to train the ML model
-⚙️ Installation & Local Setup
-1. Clone the Repository
-Bash
-git clone [https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git](https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git)
-cd Fake-News-Detection-Using-ML-Project
-2. Install Required Dependencies
-Ensure you have Python installed, then run the following to pull down the processing libraries:
-
-Bash
-pip install pandas numpy scikit-learn nltk
-🚀 Execution & Workflow
-Step 1: Model Training
-Run the training engine script to parse the source dataset, preprocess text attributes, extract feature vectors, and store the trained model parameters.
-
-Bash
-python train.py
-Training Output Log (training.png):
-
-
-Step 2: Live Fake News Prediction Testing
-After training completes successfully, run the prediction interface to manually check customized news strings against the predictive model profile.
-
-Bash
-python predict.py
-Live Testing Interface Demonstration (output.png):
-
-
-📺 Video Demonstration
-Below is the live operational workflow of the text pre-processing and model execution phases.
-
-🎬 Play Interactive Demo Video
-💡 If your browser does not render the built-in video player automatically below, click this direct hyperlink to stream it: [▶️ Play Project Demo Video File Output]
-
-📊 Performance Matrix & Metrics
-Core Framework Model Configuration: Natural Language Processing (NLP) with Feature Vectorization Optimization.
-
-Evaluated Classification Target Accuracy: 1.0 (100% precision threshold convergence achieved during processing evaluations).# Fake News Detection Using Machine Learning
-
-<!-- Project Banner -->
-<p align="center">
-  <img src="./banner1.png" alt="Fake News Detection Banner" width="100%">
-</p>
-
-## 📌 Project Overview
-Misinformation spreads quickly in the modern digital landscape. This project implements a Python-based Machine Learning solution designed to automatically evaluate and classify news statements as either **REAL** or **FAKE**. Utilizing Natural Language Processing (NLP) primitives and optimized classification models, this system detects linguistic anomalies and structural cues unique to fabricated reporting.
-
----
-
-## 🧰 Languages & Technologies Used
-* **Primary Language:** **Python 3.x** (Used for core logic, text processing, and machine learning pipeline execution)
-* **Machine Learning & NLP Libraries:** 
-  * `Scikit-learn` (For feature extraction, vectorization, and building the classification model)
-  * `NLTK` (Natural Language Toolkit for cleaning, tokenizing, and filtering text data)
-* **Data Processing:** 
-  * `Pandas` (For managing and structure loading the text datasets)
-  * `NumPy` (For high-performance matrix and vector calculations)
-
----
-
-## 🚀 Key Features
-* **Real-Time Live Prediction Interface:** Includes an interactive command-line environment (`predict.py`) where users can type any custom news sentence to get instant validation.
-* **High Threshold Classification Accuracy:** Features a highly optimized pipeline that converges efficiently, achieving a `1.0` (100%) evaluation milestone on training sets.
-* **Automated Training Pipeline:** Equipped with a clean `train.py` compilation architecture that instantly handles data preprocessing, feature mapping, and logs complete tracking summaries.
-* **Linguistic Trait Diagnostics:** Utilizes custom natural language weights to separate structural realities from sensationalized phrases (such as predicting extreme statements like *"aliens landing"* or *"the moon crashing"* properly as FAKE).
-
----
-
-## 📂 Project Repository Structure
-This is how the files are organized within the repository (as shown in `project-structure.png`):
-
-```text
-├── assets/
-├── dataset/
-├── Demo -video/
-│   └── demo-video.mp4       # Your uploaded demonstration video
-├── model/
-├── Screenshots/
-│   ├── project-structure.png
-│   ├── training.png
-│   └── output.png
-├── predict.py               # Script used to test live entries
+├── predict.py
 └── train.py
-                            # Script used to train the ML model
-⚙️ Installation & Local Setup
-1. Clone the Repository
-Bash
-git clone [https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git](https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git)
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git
+```
+
+---
+
+## 2️⃣ Open Project Folder
+
+```bash
 cd Fake-News-Detection-Using-ML-Project
-2. Install Required Dependencies
-Ensure you have Python installed, then run the following to pull down the processing libraries:
+```
 
-Bash
-pip install pandas numpy scikit-learn nltk
-🚀 Execution & Workflow
-Step 1: Model Training
-Run the training engine script to parse the source dataset, preprocess text attributes, extract feature vectors, and store the trained model parameters.
+---
 
-Bash
+## 3️⃣ Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Train Model
+
+```bash
 python train.py
-Training Output Log (training.png):
+```
 
+---
 
-Step 2: Live Fake News Prediction Testing
-After training completes successfully, run the prediction interface to manually check customized news strings against the predictive model profile.
+## 5️⃣ Run Prediction
 
-Bash
+```bash
 python predict.py
-Live Testing Interface Demonstration (output.png):
+```
+
+---
+
+# 🧠 Machine Learning Workflow
+
+* Data Collection
+* Data Cleaning
+* Text Preprocessing
+* Feature Extraction
+* Model Training
+* Prediction
+* Evaluation
+
+---
+
+```md
+# 📸 Project Screenshots
+
+## 🔹 Prediction Output
+
+<p align="center">
+  <img src="output.png" width="850"/>
+</p>
+
+---
+
+## 🔹 Model Training
+
+<p align="center">
+  <img src="training.png" width="750"/>
+</p>
+
+---
+
+## 🔹 Project Structure
+
+<p align="center">
+  <img src="structure.png" width="450"/>
+</p>
+
+---
+
+# 🎥 Demo Video
+
+## ▶️ Watch Project Demo
+
+<p align="center">
+  <a href="Demo-video/demo.mp4">
+    <img src="https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube">
+  </a>
+</p>
+```
 
 
-📺 Video Demonstration
-Below is the live operational workflow of the text pre-processing and model execution phases.
+# 📊 Accuracy
 
-🎬 Play Interactive Demo Video
-💡 If your browser does not render the built-in video player automatically below, click this direct hyperlink to stream it: [▶️ Play Project Demo Video File Output]
+✅ Model Accuracy: **100%**
 
-📊 Performance Matrix & Metrics
-Core Framework Model Configuration: Natural Language Processing (NLP) with Feature Vectorization Optimization.
+---
 
-Evaluated Classification Target Accuracy: 1.0 (100% precision threshold convergence achieved during processing evaluations).v
-Author
-Harika
+# 🚀 Future Improvements
+
+* 🌐 Deploy as Web Application
+* 📱 Mobile Friendly Version
+* 🔥 Deep Learning Integration
+* 📡 Real-Time News Detection
+
+---
+
+# 👩‍💻 Author
+
+## Harika Podalakuru
+
+* GitHub: https://github.com/Harika7075
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+<div align="center">
+
+### 💙 Made with Python & Machine Learning 💙
+
+</div>
+# 📰 Fake News Detection Using Machine Learning
+
+<div align="center">
+
+<img src="banner.png" width="100%">
+
+### 🚀 AI Powered Fake News Detection System using NLP & Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge\&logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-purple?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+
+</div>
+
+---
+
+# 📌 Project Overview
+
+This project is a **Fake News Detection System** developed using **Machine Learning** and **Natural Language Processing (NLP)**.
+
+The model analyzes news text and predicts whether the news is:
+
+✅ REAL
+❌ FAKE
+
+The project helps in detecting misinformation and improving news reliability using intelligent prediction models.
+
+---
+
+# ✨ Features
+
+* 🔍 Detects Fake and Real News
+* 🤖 Machine Learning Prediction
+* 🧠 NLP Text Processing
+* ⚡ Fast and Accurate Results
+* 📊 Model Training Included
+* 💻 Simple Python Implementation
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology       | Purpose              |
+| ---------------- | -------------------- |
+| Python           | Programming Language |
+| Machine Learning | Prediction Model     |
+| NLP              | Text Processing      |
+| Pandas           | Data Handling        |
+| NumPy            | Numerical Operations |
+| Scikit-learn     | ML Algorithms        |
+| Pickle           | Model Saving         |
+
+---
+
+# 📂 Project Structure
+
+<div align="center">
+
+<img src="structure.png" width="500">
+
+</div>
+
+```bash
+Fake-News-Detection-Using-ML-Project/
+│
+├── assets/
+├── dataset/
+├── Demo-video/
+├── model/
+├── Screenshots/
+├── predict.py
+└── train.py
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Harika7075/Fake-News-Detection-Using-ML-Project.git
+```
+
+---
+
+## 2️⃣ Open Project Folder
+
+```bash
+cd Fake-News-Detection-Using-ML-Project
+```
+
+---
+
+## 3️⃣ Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Train Model
+
+```bash
+python train.py
+```
+
+---
+
+## 5️⃣ Run Prediction
+
+```bash
+python predict.py
+```
+
+---
+
+# 🧠 Machine Learning Workflow
+
+* Data Collection
+* Data Cleaning
+* Text Preprocessing
+* Feature Extraction
+* Model Training
+* Prediction
+* Evaluation
+
+---
+
+# 📸 Project Screenshots
+
+## 🔹 Prediction Output
+
+<div align="center">
+
+<img src="output.png" width="850">
+
+</div>
+
+---
+
+## 🔹 Model Training
+
+<div align="center">
+
+<img src="training.png" width="750">
+
+</div>
+
+---
+
+# 🎥 Demo Video
+
+## ▶️ Watch Project Demo
+
+[Click Here To Watch Demo Video](Demo-video/demo.mp4)
+
+> Upload your video file inside the `Demo-video` folder with name:
+>
+> `demo.mp4`
+
+---
+
+# 📊 Accuracy
+
+✅ Model Accuracy: **100%**
+
+---
+
+# 🚀 Future Improvements
+
+* 🌐 Deploy as Web Application
+* 📱 Mobile Friendly Version
+* 🔥 Deep Learning Integration
+* 📡 Real-Time News Detection
+
+---
+
+# 👩‍💻 Author
+
+## Harika Podalakuru
+
+* GitHub: https://github.com/Harika7075
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+<div align="center">
+
+### 💙 Made with Python & Machine Learning 💙
+
+</div>
